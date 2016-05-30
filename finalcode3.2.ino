@@ -114,15 +114,6 @@ void loop() {
 
 
     //show  data in console monitor
-    /*  Console.print(l_hour, DEC);
-      Console.print(" L/hour\t");
-      Console.print(Time++, DEC);
-      Console.print(" Sec.\t");
-      Console.print (watertotal, DEC);
-      Console.print(" Total Water \t");
-      Console.print(totalTime++, DEC);
-      Console.println(" Total Time");
-    */
     Console.print(l_hour, DEC); // Print litres/hour
     Console.print(" L/hour\t");
     Console.print(hour());
